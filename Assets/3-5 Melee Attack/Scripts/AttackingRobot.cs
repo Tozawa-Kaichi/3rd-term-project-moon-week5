@@ -16,7 +16,7 @@ public class AttackingRobot : MonoBehaviour
     [SerializeField] float _attackPower = 10f;
     GameObject _player = default;
     Animator _anim = default;
-
+    
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
